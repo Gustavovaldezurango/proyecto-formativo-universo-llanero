@@ -4,4 +4,4 @@
 
 ### Especificación del proyecto
 
-- [Especificación](Proyecto-Equipo1.docx)
+- [Especificación](Especificación.md)
