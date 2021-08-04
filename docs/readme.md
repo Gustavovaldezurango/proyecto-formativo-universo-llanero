@@ -5,3 +5,4 @@
 ### Especificación del proyecto
 
 - [CSR](Especificación.md)
+- [Entrevista](PreguntasEntrevista.md)
