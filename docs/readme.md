@@ -4,4 +4,4 @@
 
 ### Especificación del proyecto
 
-- [Especificación](Especificación.md)
+- [CSR](Especificación.md)
