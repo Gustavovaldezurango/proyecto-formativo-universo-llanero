@@ -13,8 +13,14 @@ class ClientesController < ApplicationController
     cliente = Cliente.create(
     nombre: params[:nombre],
     apellido: params[:apellido],
-    frecuente: params[:frecuente])
-    render json: cliente, status: 201
+    frecuente: params[:frecuente]
+    )
+    
+    if cliente.save
+      render json: cliente, status: 201
+    else
+      render json: {error: "Problemas al guardar"}, status: 422
+    end
   end 
   
 end
